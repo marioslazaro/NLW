@@ -37,7 +37,7 @@ header div {
 
     display: flex;
     padding: 4px;
-    
+
     transition: transform .3s;
 }
 
@@ -45,7 +45,7 @@ header div:hover {
     transform: scale(1.1);
 
 }
-  
+
 
 header img {
     width: 100px;
@@ -101,9 +101,11 @@ section ul {
 section ul li {
     transition: .3s;
 }
+
 section ul li:hover {
     transform: scale(1.1);
 }
+
 .games-list {
     width: 90px;
     border-radius: 8px;
@@ -119,7 +121,7 @@ section ul li:hover {
 
 header div {
     animation: fromTop .7s .2s backwards;
-    
+
 }
 
 main section {
@@ -149,7 +151,7 @@ main section:nth-child(3) {
         transform: translateY(0);
     }
 
-    
+
 }
 
 @keyframes fromBottom {
